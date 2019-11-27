@@ -1,0 +1,110 @@
+\documentclass[12pt]{jarticle} % Japanese
+\usepackage{naist-jmthesis} %Japanese
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{graphicx}
+\usepackage{algorithm, algorithmic}
+\usepackage{threeparttable}
+\usepackage{multirow}
+\usepackage{lscape}
+\usepackage{url}
+
+\pagestyle{final}       % Camera-Ready
+% \pagestyle{draft}      % Draft
+
+\lang{Japanese} % Japanese
+\studentnumber{}
+\doctitle{\mastersthesis}       % 修士論文
+\major{\engineering}    % 工学
+%\major{\science}       % 理学
+
+\title{}
+\ptitle{}% 入力不要
+
+\etitle{}
+\eptitle{}% 入力不要
+
+\author{}
+\eauthor{}
+\epauthor{}% 入力不要
+
+\syear{}
+\smonth{}
+\sday{}
+
+%\department{\infproc}  % 情報処理学
+%\department{\infsys}    % 情報システム学
+%\department{\bioinf}   % 情報生命科学
+%\department{\infsci}    % 情報科学
+
+\cmembers{安本 慶一 教授}{（主指導教員）}
+         {教授}{（副指導教員）}
+         {助教}{（副指導教員）}
+         {}{}
+\ecmembers{Professor Keiichi Yasumoto}{(Supervisor)}
+          {Professor}{(Co-supervisor)}
+          {Research associate}{(Co-supervisor)}
+          {}{}
+
+\keywords{}
+\pkeywords{}% 入力不要
+
+\ekeywords{}
+\epkeywords{}% 入力不要
+
+\abstract{
+
+}
+\pabstract{}% 入力不要
+
+\eabstract{
+
+}
+\epabstract{}% 入力不要
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% document starts here %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\titlepage
+\cmemberspage
+\firstabstract
+% \secondabstract
+
+% 目次
+\toc
+\newpage
+\listoffigures
+\listoftables
+
+\input{1_introduction.tex}
+\input{2_relatedwork.tex}
+\input{3_problem.tex}
+\input{4_algorithms.tex}
+\input{5_experiments.tex}
+\input{6_discussion.tex}
+\input{7_conclusion.tex}
+\input{8_acknowledgements.tex}
+
+\newpage
+\bibliography{mthesis}
+\bibliographystyle{junsrt}
+
+%研究業績
+\clearpage
+\section*{研究業績}
+\addcontentsline{toc}{section}{研究業績}
+
+\subsection*{国際会議}
+\begin{enumerate}
+\item 
+\end{enumerate}
+
+
+\subsection*{国内会議}
+\begin{enumerate}
+\item 
+\end{enumerate}
+
+\end{document}
+
